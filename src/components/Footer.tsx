@@ -1,0 +1,2 @@
+import React from 'react';
+export const Footer:React.FC=()=> <footer className="border-t border-white/10 bg-[#070712]"><div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row gap-4 items-center justify-between"><div><div className="font-display text-xl font-black text-white">AETHERIA</div><div className="font-mono text-[9px] tracking-[.25em] text-neutral-600">CREATIVE TECHNOLOGY STUDIO</div></div><div className="text-xs text-neutral-600">© 2026 AETHERIA. ALL SIGNALS RESERVED.</div></div></footer>;
