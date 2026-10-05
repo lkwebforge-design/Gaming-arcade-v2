@@ -1,0 +1,2 @@
+import React from 'react'; import { MessageCircle } from 'lucide-react';
+export const WhatsAppFloatingButton:React.FC=()=>{const open=()=>window.open('https://wa.me/15550198374','_blank','noopener,noreferrer');return <button aria-label="Open WhatsApp" onClick={open} className="fixed z-40 bottom-5 right-5 w-14 h-14 rounded-full bg-emerald-400 text-black shadow-[0_0_30px_rgba(16,185,129,.3)] flex items-center justify-center hover:scale-105 transition-transform"><MessageCircle className="w-6 h-6"/></button>};
