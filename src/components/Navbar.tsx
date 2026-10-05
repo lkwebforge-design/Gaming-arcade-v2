@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWhatsAppModal }) => {
         </nav>
         <div className="flex items-center gap-2 sm:gap-3">
           <a href="/aetheria-codebase.zip" download="aetheria-codebase.zip" onClick={() => sound.playLaser()} title="Download full project zip" className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-500 hover:text-neutral-950 transition-all duration-200 shadow-[0_0_15px_rgba(6,182,212,0.15)] whitespace-nowrap active:scale-95">
-            <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 fill-none stroke-current stroke-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 2-2 2H5a2 2 0 0 2-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
+            <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 fill-none stroke-current stroke-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
             <span className="hidden sm:inline">Download Code</span><span className="sm:hidden">ZIP</span>
           </a>
           <button onClick={handleToggleAudio} title={isAudioActive ? 'Mute ambient soundscape' : 'Enable ambient soundscape'} aria-label={isAudioActive ? 'Mute ambient audio' : 'Enable ambient audio'} className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-mono text-neutral-300 hover:text-white bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
